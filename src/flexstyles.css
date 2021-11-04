@@ -1,0 +1,222 @@
+header {
+    height: 69px;
+    width: 100%;
+    top:0;
+    z-index: 2;
+    border-bottom: 1px solid ;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:100px;
+    background-color: black;
+    
+}
+.follow img{
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.follow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 0;
+    list-style: none;
+    text-shadow: 0 0 5px #FFF,
+    0 0 10px #FFF,
+     0 0 15px #FFF,
+      0 0 20px #28d3fd,
+       0 0 30px #18e4ff;
+ color: #FFFFFF;
+ font-family: 'Julius Sans One', sans-serif;
+}
+
+.follow a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    text-shadow: 0 0 5px #FFF,
+    0 0 10px #FFF,
+     0 0 15px #FFF,
+      0 0 20px #28d3fd,
+       0 0 30px #18e4ff;
+ color: #FFFFFF;
+ font-family: 'Julius Sans One', sans-serif;
+}
+
+.follow a:hover {
+    opacity: 0.7;
+}
+/* body -- note the display flex and flex flow rules thoughout . also text shadows making a glow effect */
+body {
+  margin-top: 100px;
+  background-color:black;
+  font-size: 22px;
+  text-align: center;
+
+
+  
+}
+
+a {
+    text-shadow: 0 0 5px #FFF,
+   0 0 10px #FFF,
+    0 0 15px #FFF,
+     0 0 20px #28d3fd,
+      0 0 30px #18e4ff;
+color: #FFFFFF;
+font-family: 'Julius Sans One', sans-serif;
+}
+
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 10px;
+}
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+  }
+  
+  .title-container {
+    display: flex;
+    height: 300px;
+    background-image: url(./);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .title-info-container {
+    margin: auto;
+    background-color:rgba(0,0,0,0.9);
+    width: 100%;
+    text-shadow: 0 0 5px #FFF,
+    0 0 10px #FFF,
+     0 0 15px #FFF,
+      0 0 20px #28d3fd,
+       0 0 30px #18e4ff;
+ color: #FFFFFF;
+ font-family: 'Julius Sans One', sans-serif;
+  }
+  .flexbox-centre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+
+.featured-container {
+    width: 1000px;
+    margin: 150px auto 90px auto;
+    position: relative;
+    text-shadow: 0 0 5px #FFF,
+    0 0 10px #FFF,
+     0 0 15px #FFF,
+      0 0 20px #28d3fd,
+       0 0 30px #18e4ff;
+ color: #FFFFFF;
+ font-family: 'Julius Sans One', sans-serif;
+}
+
+.feature-statement {
+    text-align: center;
+    margin: 20px;
+    text-shadow: 0 0 5px #FFF,
+    0 0 10px #FFF,
+     0 0 15px #FFF,
+      0 0 20px #28d3fd,
+       0 0 30px #18e4ff;
+ color: #FFFFFF;
+ font-family: 'Julius Sans One', sans-serif;
+}
+
+.feature-statement h4 h2 {
+    margin: 20px 0;
+    text-shadow: 0 0 5px #FFF,
+    0 0 10px #FFF,
+     0 0 15px #FFF,
+      0 0 20px #28d3fd,
+       0 0 30px #18e4ff;
+ color: #FFFFFF;
+ font-family: 'Julius Sans One', sans-serif;
+}
+
+.flexbox-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-container img{
+    height: 200px;
+    width: 300px;
+    flex-basis: auto;
+    margin: 10px;
+    border-radius: 5%;
+    
+    
+    
+   
+      
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+  .team-container, h2{
+    text-shadow: 0 0 5px #FFF,
+    0 0 10px #FFF,
+     0 0 15px #FFF,
+      0 0 20px #28d3fd,
+       0 0 30px #18e4ff;
+ color: #FFFFFF;
+ font-family: 'Julius Sans One', sans-serif;
+  }
+
+  .team {
+    background-image: url(./natureBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .teammate {
+    padding: 10px;
+    color: rgb(21, 255, 0);
+    flex-basis: 280px;
+    background-color: rgba(53, 92, 30, 0.432);
+    border-radius: 5%;
+    text-shadow: black 1;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  
+  .teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    border-radius: 5%;
+  }
+  
